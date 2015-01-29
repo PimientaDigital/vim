@@ -4,12 +4,13 @@
 # It sets variables according to platform.
 #
 class vim::params {
+
   case $::osfamily {
     'Debian': {
       $package_name = 'vim'
     }
     'RedHat', 'Amazon': {
-      $package_name = 'vim-enhaced'
+      $package_name = 'vim-enhanced'
     }
     default: {
       fail("${::operatingsystem} not supported")
