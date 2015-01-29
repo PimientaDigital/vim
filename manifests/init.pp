@@ -14,5 +14,5 @@ class vim (
   # validate parameters here
 
   class { '::vim::install': } ->
-    Class['::module']
+    Class['::vim']
 }

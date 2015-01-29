@@ -10,7 +10,7 @@ class vim::params {
       $package_name = 'vim'
     }
     'RedHat', 'Amazon': {
-      $package_name = 'vim-enhaced'
+      $package_name = 'vim-enhanced'
     }
     default: {
       fail("${::operatingsystem} not supported")
