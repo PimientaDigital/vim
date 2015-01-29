@@ -9,7 +9,7 @@
 #
 class vim (
   $package_name = $::vim::params::package_name
-) inherits ::module::params {
+) inherits ::vim::params {
 
   # validate parameters here
 

@@ -4,6 +4,7 @@
 # It sets variables according to platform.
 #
 class vim::params {
+
   case $::osfamily {
     'Debian': {
       $package_name = 'vim'
