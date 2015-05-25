@@ -1,5 +1,5 @@
-name          'luismayta-vim'
-version       '0.1.0'
+name          'pimientadigital-vim'
+version       '1.0.0'
 source        ''
 author        'luis mayta'
 license       'Apache 2.0'
